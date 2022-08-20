@@ -1,10 +1,8 @@
 import React from "react";
-const = (firstName,secondName ) =>{
-let fullName = `${firstName} ${secondName}` ;
-
-return (
-    <p>{fullName}</p>
-   ); }  
+const ProfilePhoto = () =>{
+// let photo = <img src = "./isetkl.jpg" />;
 
 
-export default fullName
+return <img src = "./isetkl.jpg" alt = "image" /> }  
+
+export default ProfilePhoto
